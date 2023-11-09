@@ -135,7 +135,7 @@ hr {
 }
 
 label {
-    margin: 0 1ex;
+    margin: 0;
     vertical-align: middle;
 
     font: 300 1em "Poppins", sans-serif;
@@ -169,7 +169,7 @@ form input, form textarea, form select, form button {
 }
 
 form button {
-    width: 100%;
+    width: 70%;
     border-radius: var(--internal-size);
     background: var(--control-contrast);
 }
@@ -197,6 +197,7 @@ button input[readonly] {
     border-radius: 0;
     background: transparent;
     box-shadow: none;
+    text-align: center;
 }
 
 input::placeholder, textarea::placeholder {
@@ -644,4 +645,8 @@ html[data-scroll]:not([data-scroll="hero"]) #navigation .cta {
 
 .copyright p {
     margin: 1em;
+}
+
+#siteResult {
+	text-align: center;
 }

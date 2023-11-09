@@ -95,7 +95,7 @@ spectre.resultType = {
 };
 spectre.resultType = Object.freeze({
     ...spectre.resultType,
-    defaultPassword: spectre.resultType.templateLong,
+    defaultPassword: spectre.resultType.templateMaximum,
     defaultLogin: spectre.resultType.templateName,
     defaultAnswer: spectre.resultType.templatePhrase,
 });
@@ -197,5 +197,4 @@ spectre.identicons = Object.freeze({
         "☕", "⌚", "⌛", "⏰", "⚡", "⛄", "⛅", "☔", "♔", "♕", "♖", "♗", "♘", "♙", "♚", "♛", "♜", "♝", "♞", "♟",
         "♨", "♩", "♪", "♫", "⚐", "⚑", "⚔", "⚖", "⚙", "⚠", "⌘", "⏎", "✄", "✆", "✈", "✉", "✌",
     ],
-    color: ['red', 'green', 'yellow', 'blue', 'magenta', 'cyan', 'currentcolor'],
 })

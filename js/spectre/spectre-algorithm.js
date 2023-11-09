@@ -234,9 +234,8 @@ spectre.newIdenticon = Object.freeze(async(userName, userSecret) => {
 
     return {
         "leftArm": spectre.identicons.leftArm[seed[0] % spectre.identicons.leftArm.length],
-        "body": spectre.identicons.body[seed[1] % spectre.identicons.body.length],
-        "rightArm": spectre.identicons.rightArm[seed[2] % spectre.identicons.rightArm.length],
-        "accessory": spectre.identicons.accessory[seed[3] % spectre.identicons.accessory.length],
-        "color": spectre.identicons.accessory[seed[4] % spectre.identicons.color.length],
+        "body": spectre.identicons.body[seed[0] % spectre.identicons.body.length],
+        "rightArm": spectre.identicons.rightArm[seed[0] % spectre.identicons.rightArm.length],
+        "accessory": spectre.identicons.accessory[seed[0] % spectre.identicons.accessory.length],
     }
 });
