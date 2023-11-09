@@ -1,7 +1,7 @@
 # [Spectre](https://spectre.app)
 
 Hello, this is a fork of [Spectre](https://gitlab.com/spectre.app/web/).
-Please check the original project to et the full documentation.
+Please check the original project to get the full documentation.
 
 ## Building and running
 
